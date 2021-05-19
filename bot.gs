@@ -29,7 +29,7 @@ function sendImage(chat_id, photo, keyboard) { // функция, необход
 
 function setWebhook() { // функция, с помощью которой мы загружаем наш код на сервера google
   const webappurl = "SET_GOOGLE_WEBHOOK";
-  let url = "SET_API_URL";
+  let url = "SET_API_URL_HOOK";
   let response = UrlFetchApp.fetch(url + "?url=" + webappurl);
   Logger.log(response);
 }
