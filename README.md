@@ -8,3 +8,5 @@
 4) В файле bot.gs заменить значения SET_API_URL в двух первых функциях на https://api.telegram.org/botAPI/ (заменив "API" на полученный вами раннее API).
 5) В третьей функции заменить SET_API_URL_HOOK на https://api.telegram.org/botAPI/setwebhook (также заменив буквы API, как и ранее)
 6) Заполнить таблицы по аналогу с моими (https://docs.google.com/spreadsheets/d/1t-enGK_DTcLygwNkjDs5mZ6B6b9IonqByeEHl03cCGQ/edit#gid=1377732151).
+7) Нажать "Начать развёртывание", выбрать "Новое развёртывание", скопировать предоставленную ссылку.
+8) Вставить ссылку вместо значения SET_GOOGLE_WEBHOOK в третьей функции из bot.gs.
