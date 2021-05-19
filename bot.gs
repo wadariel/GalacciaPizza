@@ -23,7 +23,7 @@ function sendImage(chat_id, photo, keyboard) { // функция, необход
       reply_markup : JSON.stringify(keyboard)
     }
   }
-  let url = "https://api.telegram.org/bot1778494560:AAHoJVYA9VDqv0CiXwLDxceZf34grE1GN5s/";
+  let url = "SET_API_URL";
   let response = UrlFetchApp.fetch(url, img);
 }
 
